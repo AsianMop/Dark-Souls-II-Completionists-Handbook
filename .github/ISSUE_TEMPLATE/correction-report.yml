@@ -1,0 +1,124 @@
+name: Handbook Correction Report
+description: Report suspected inaccurate, missing, unclear, or incorrectly formatted handbook content.
+title: "[Correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Dark Souls II: The Completionist’s Handbook.
+
+        Please provide enough detail for the report to be independently checked against Dark Souls II: Scholar of the First Sin.
+
+  - type: input
+    id: handbook-version
+    attributes:
+      label: Handbook version
+      description: Enter the version shown in the handbook.
+      placeholder: "Example: Version 1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      description: Select the edition in which you found the issue.
+      options:
+        - Digital Interactive Edition PDF
+        - Collector’s Edition — A4 PDF
+        - Collector’s Edition — US Letter PDF
+        - Editable DOCX edition
+        - Google Docs import edition
+        - All editions
+        - Unsure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Type of correction
+      description: Select the category that best describes the issue.
+      options:
+        - Gameplay accuracy
+        - Scholar of the First Sin difference
+        - Missing item or collectible
+        - NPC or merchant information
+        - Boss, summon, or invasion information
+        - Route or progression guidance
+        - Completion trap or missable
+        - Bonfire Ascetic or NG+ information
+        - Table of Contents or page number
+        - Hyperlink, bookmark, or cross-reference
+        - Table or layout formatting
+        - Typographical or grammatical error
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter or module
+      description: Enter the relevant area chapter, appendix, catalogue, or module.
+      placeholder: "Example: Merchant Progression — Lonesome Gavlan"
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Displayed page number
+      description: Enter the page number printed in the handbook, if applicable.
+      placeholder: "Example: 223"
+    validations:
+      required: false
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current content or problem
+      description: Quote the relevant wording or describe exactly what appears to be wrong.
+      placeholder: Describe the suspected error, omission, broken link, or formatting problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-correction
+    attributes:
+      label: Proposed correction
+      description: Explain what you believe the handbook should say or display instead.
+      placeholder: Provide the corrected information, if known.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Provide reliable source links, screenshots, video timestamps, or precise in-game testing steps.
+      placeholder: |
+        Source URL:
+        In-game location:
+        Testing conditions:
+        Relevant evidence:
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Include anything else that may help reproduce or verify the report.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked that this report concerns Dark Souls II: Scholar of the First Sin rather than the original-release version.
+          required: true
+        - label: I checked the existing open issues for a duplicate report.
+          required: true
