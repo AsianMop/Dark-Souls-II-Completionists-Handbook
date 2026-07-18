@@ -118,7 +118,7 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I checked that this report concerns Dark Souls II: Scholar of the First Sin rather than the original-release version.
+        - label: "I checked that this report concerns Dark Souls II: Scholar of the First Sin rather than the original-release version."
           required: true
-        - label: I checked the existing open issues for a duplicate report.
+        - label: "I checked the existing open issues for a duplicate report."
           required: true
