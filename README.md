@@ -1,22 +1,49 @@
 # Dark Souls II: The Completionist’s Handbook
 
-**Scholar of the First Sin — Version 1.0**
+**Scholar of the First Sin — Version 1.1**
 
-An unofficial, non-commercial completionist handbook created by AsianMop for *Dark Souls II: Scholar of the First Sin*.
+An unofficial, non-commercial completionist handbook created by **AsianMop** for *Dark Souls II: Scholar of the First Sin*.
+
+Version **1.1** supersedes Version **1.0** and represents the first comprehensively verified edition of the handbook. Every chapter, appendix and supporting publication material has undergone editorial verification against multiple authoritative *Scholar of the First Sin* sources before publication.
 
 The handbook provides a complete, route-ordered journey through the base game and all three Crown DLC campaigns, including collectibles, NPC and merchant progression, boss strategies, summons, invasions, Scholar-specific differences, completion traps, post-game cleanup and Journey 2 preparation.
+
+---
+
+## Repository Status
+
+**Current Release:** Version 1.1
+
+Version 1.1 is the latest verified release of the handbook.
+
+Future corrections and improvements will be published through subsequent GitHub releases.
+
+---
 
 ## Download
 
 [Download the latest published release](https://github.com/AsianMop/Dark-Souls-II-Completionists-Handbook/releases/latest)
 
-The **Digital Interactive Edition PDF** is recommended for most readers.
+**The Version 1.1 Corrected Publication (PDF) is the recommended edition for most readers.**
 
-## Available editions
+## Available Editions
 
-- **Digital Interactive Edition** — fixed-layout screen reading with searchable text, bookmarks and internal navigation.
-- **Collector’s Edition — A4** — professionally formatted for A4 printing.
-- **Collector’s Edition — US Letter** — professionally formatted for US Letter printing.
+- **Version 1.1 Corrected Publication (PDF)** — recommended for most readers.
+- **Version 1.1 Corrected Publication (DOCX)** — editable Word edition.
+- **Complete Publication Audit Report** — documents the publication-wide verification process.
+- **Completion Summary** — summarises the Version 1.1 publication and verification results.
+
+## What's New in Version 1.1
+
+- Complete publication-wide editorial audit.
+- Comprehensive factual and editorial corrections.
+- Improved routing and progression accuracy.
+- Corrected NPC and merchant progression.
+- Corrected summon and invasion information.
+- Corrected Scholar-specific content.
+- Updated hyperlinks, cross-references and page references.
+- Improved publication consistency and formatting.
+- Final structural and publication verification completed.
 
 ## Coverage
 
@@ -36,18 +63,26 @@ The **Digital Interactive Edition PDF** is recommended for most readers.
 
 ## Corrections
 
-Evidence-supported corrections may be submitted through the repository’s **Issues** tab or through the handbook’s Discord correction channel.
+Evidence-supported corrections may be submitted through the repository's **Issues** tab or through the handbook's Discord correction channel.
 
-Please include the edition, filename, page number, chapter or reference code, a description of the issue and supporting Scholar-specific evidence.
+Please include:
 
-## Usage and attribution
+- Edition
+- Version
+- Filename
+- Page number
+- Chapter or reference code
+- Description of the issue
+- Supporting Scholar-specific evidence
 
-This handbook may be retained and shared unchanged for non-commercial personal or community reference with credit to AsianMop.
+## Usage and Attribution
 
-Sale, paid redistribution, removal of attribution, or representation as an official publication is not permitted without the creator’s consent.
+This handbook may be retained and shared unchanged for non-commercial personal or community reference with appropriate credit to **AsianMop**.
+
+Commercial sale, paid redistribution, removal of attribution, modification, or representation as an official publication is prohibited without the creator's prior permission.
 
 ## Disclaimer
 
 *Dark Souls II*, *Scholar of the First Sin*, related names, characters and game assets are trademarks or intellectual property of their respective owners.
 
-This unofficial community handbook is not affiliated with or endorsed by FromSoftware or Bandai Namco Entertainment.
+This unofficial community handbook is not affiliated with or endorsed by **FromSoftware** or **Bandai Namco Entertainment**.
